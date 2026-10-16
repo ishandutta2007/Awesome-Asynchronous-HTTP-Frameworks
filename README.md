@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,25 +41,17 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global API client, testing, and lifecycle management tooling market is estimated at approximately $1.6B–$1.75B (scaling beyond $5B+ by 2030 at a >20% CAGR), nested within the broader $9B+ enterprise API management industry. The sector is moderately concentrated at the top with clear category heavyweights (such as Postman holding strong developer-first mindshare and Kong leading gateway/enterprise integrations), alongside a fragmented long tail of lightweight open-source and modular API developer tools competing on speed, local privacy, and open standards.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Postman CLI](https://www.postman.com/)**  
-
-  **Command-line collection runner and API testing tool** from the Postman platform. Features **collection execution**, **environment management**, and **CI/CD integration** with JUnit and HTML reporting.
-
-
-
-- **[HTTPie Cloud](https://httpie.io/)**  
-
-  **Managed version of the HTTPie CLI** with **syntax highlighting**, **JSON support**, and **cloud sync** for API requests and environments.
-
-
-
-- **[Insomnia](https://insomnia.rest/)**  
-
-  **API client for GraphQL, REST, WebSockets, SSE, and gRPC**. Features **design-first spec editing**, **test suites**, and **MCP client support** (paid plans) .
+| Platform | Company Scale / Valuation | Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Postman CLI](https://www.postman.com/)** | **$5.6B valuation** (~$100M+ ARR) | Free forever ($0); Solo paid plan starts at **$9/month** (billed annually) or **$14/month** (monthly); Team plan starts at **$19/user/month** | **1 user strictly**; Unlimited collection runs and mock servers; 1,000 monitoring requests/month; 50 AI Postbot credits/month | Command-line collection runner and API testing tool from the Postman platform. Features collection execution, environment management, and CI/CD integration. |
+| **[Insomnia](https://insomnia.rest/)** | **$2.0B valuation** (Parent Kong Inc.; $100M+ ARR) | Essentials plan free forever ($0); Pro paid plan starts at **$12/user/month**; Enterprise plan at **$45/user/month** | **Up to 3 users for Git Sync**; Unlimited local/cloud projects; 1,000 mock server requests/month; Full Inso CLI and collection runs; Offline Scratch Pad mode | API client for GraphQL, REST, WebSockets, SSE, and gRPC. Features design-first spec editing, test suites, and MCP client support. |
+| **[HTTPie Cloud](https://httpie.io/)** | **$3.5M seed funding** (~$550K estimated ARR) | Free forever preview / open-source; Enterprise & team custom quotation upon sales request | **Unlimited free forever usage for individual developer client**; Free unlimited terminal CLI (BSD licensed); Free web & desktop apps with local offline storage, cloud backup sync, and preview HTTPie AI features | Managed version and web/desktop GUI of the HTTPie client with syntax highlighting, JSON support, and cloud sync for API requests and environments. |
 
 
 
