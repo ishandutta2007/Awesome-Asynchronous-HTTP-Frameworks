@@ -1,51 +1,50 @@
-# Awesome-Asynchronous-HTTP-Frameworks
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Asynchronous HTTP Frameworks Banner" width="100%" />
+</p>
 
-## Top Asynchronous HTTP Frameworks Ecosystem
+# 🚀 Awesome Asynchronous HTTP Frameworks
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🌐 Top Asynchronous HTTP Frameworks Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+> **Curated List of Production-Grade SaaS Platforms & High-Performance Open-Source GitHub Projects**  
+> *Focused on Async HTTP Clients, Connection Pooling, Non-Blocking Sockets & High-Concurrency Requests*  
+> **Last updated: October 2026**
 
-*Focused on Async HTTP Clients, Connection Pooling & High-Concurrency Requests*  
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Asynchronous HTTP Frameworks**. Modern software architectures demand efficient I/O at scale—from non-blocking network event loops and connection pooling to HTTP/2 multiplexing, HTTP/3 QUIC, Server-Sent Events (SSE), and streaming responses across Python, JavaScript/Node.js, Rust, Go, and Java.
 
-**Last updated: October 2026**
+**Key Examples**: Axios, Requests, OkHttp, cURL, HTTPie, FastHTTP, Ky, SuperAgent, Aiohttp, HTTPX, Got, Reqwest, Resty, Undici, and urllib3.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Asynchronous HTTP Frameworks**. These tools enable developers to make HTTP requests efficiently at scale—from simple synchronous clients to fully async libraries with connection pooling, HTTP/2 support, and streaming capabilities.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🌟 Star History](#-star-history)
+- [🤝 Support](#-support)
+- [📝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Examples** include Requests, HTTPX, Aiohttp, urllib3, Postman CLI, cURL, HTTPie, Unirest, Axios, and Got (the category leaders).
+The global API client, testing, and lifecycle management tooling market is estimated at approximately **$1.6B–$1.75B** (scaling beyond **$5B+ by 2030** at a **>20% CAGR**), nested within the broader **$9B+ enterprise API management** industry. The sector is moderately concentrated at the top with clear category heavyweights (such as Postman holding strong developer-first mindshare and Kong leading gateway/enterprise integrations), alongside a fragmented long tail of lightweight open-source and modular API developer tools competing on speed, local privacy, and open standards.
 
+---
 
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, async concurrency, and open HTTP client libraries—ideal for Python, JavaScript, and polyglot developers seeking transparent, vendor-independent HTTP tooling.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global API client, testing, and lifecycle management tooling market is estimated at approximately $1.6B–$1.75B (scaling beyond $5B+ by 2030 at a >20% CAGR), nested within the broader $9B+ enterprise API management industry. The sector is moderately concentrated at the top with clear category heavyweights (such as Postman holding strong developer-first mindshare and Kong leading gateway/enterprise integrations), alongside a fragmented long tail of lightweight open-source and modular API developer tools competing on speed, local privacy, and open standards.
-
-## SaaS/Hosted Platforms
+## ☁️ SaaS/Hosted Platforms
 
 | Platform | Company Scale / Valuation | Pricing | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,164 +52,126 @@ The global API client, testing, and lifecycle management tooling market is estim
 | **[Insomnia](https://insomnia.rest/)** | **$2.0B valuation** (Parent Kong Inc.; $100M+ ARR) | Essentials plan free forever ($0); Pro paid plan starts at **$12/user/month**; Enterprise plan at **$45/user/month** | **Up to 3 users for Git Sync**; Unlimited local/cloud projects; 1,000 mock server requests/month; Full Inso CLI and collection runs; Offline Scratch Pad mode | API client for GraphQL, REST, WebSockets, SSE, and gRPC. Features design-first spec editing, test suites, and MCP client support. |
 | **[HTTPie Cloud](https://httpie.io/)** | **$3.5M seed funding** (~$550K estimated ARR) | Free forever preview / open-source; Enterprise & team custom quotation upon sales request | **Unlimited free forever usage for individual developer client**; Free unlimited terminal CLI (BSD licensed); Free web & desktop apps with local offline storage, cloud backup sync, and preview HTTPie AI features | Managed version and web/desktop GUI of the HTTPie client with syntax highlighting, JSON support, and cloud sync for API requests and environments. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+All open-source repositories below are sorted in descending order by GitHub star count:
 
+1. **[Axios](https://github.com/axios/axios)** [![GitHub stars](https://img.shields.io/github/stars/axios/axios?style=social&color=white)](https://github.com/axios/axios/stargazers)  
+   **Promise-based HTTP client for the browser and Node.js** (MIT). The most widely used JavaScript HTTP library—features interceptors, automatic JSON transformation, timeouts, and request/response cancellation. The universal standard for JavaScript HTTP requests.
 
+2. **[Requests](https://github.com/psf/requests)** [![GitHub stars](https://img.shields.io/github/stars/psf/requests?style=social&color=white)](https://github.com/psf/requests/stargazers)  
+   **The most widely used HTTP library for Python** (Apache-2.0). "HTTP for Humans" with a simple, intuitive API. Synchronous client with connection pooling via urllib3; the spiritual reference implementation for developer-friendly HTTP libraries worldwide.
 
-- **[Aiohttp](https://github.com/aio-libs/aiohttp)**  
+3. **[OkHttp](https://github.com/square/okhttp)** [![GitHub stars](https://img.shields.io/github/stars/square/okhttp?style=social&color=white)](https://github.com/square/okhttp/stargazers)  
+   **Square’s meticulous HTTP & HTTP/2 client for Android and Java applications** (Apache-2.0). Features transparent HTTP/2 multiplexing, connection pooling to reduce request latency, transparent GZIP compression, and response caching.
 
-  **Asynchronous HTTP client/server framework for asyncio and Python** (Apache-2.0) . **15,000+ GitHub stars** . **The foundational async HTTP library for Python**—provides both client and server implementations with WebSocket support . **The standard for concurrent HTTP requests in Python asyncio applications.**
+4. **[cURL](https://github.com/curl/curl)** [![GitHub stars](https://img.shields.io/github/stars/curl/curl?style=social&color=white)](https://github.com/curl/curl/stargazers)  
+   **The universal command-line tool and libcurl library for transferring data with URLs** (curl License). Supports HTTP, HTTPS, HTTP/2, HTTP/3, WebSockets, and dozens of network protocols. The foundation of internet-scale network transfers.
 
+5. **[HTTPie CLI](https://github.com/httpie/cli)** [![GitHub stars](https://img.shields.io/github/stars/httpie/cli?style=social&color=white)](https://github.com/httpie/cli/stargazers)  
+   **User-friendly command-line HTTP client for API testing** (BSD-3-Clause). Features built-in JSON support, syntax highlighting, persistent sessions, downloads like wget, and plugin extensions.
 
+6. **[FastHTTP](https://github.com/valyala/fasthttp)** [![GitHub stars](https://img.shields.io/github/stars/valyala/fasthttp?style=social&color=white)](https://github.com/valyala/fasthttp/stargazers)  
+   **Fast HTTP package for Go tuned for high performance and zero memory allocations** (MIT). Up to 10x faster than `net/http` in high-concurrency benchmarks, handling 100k+ concurrent requests/sec with minimal memory footprint.
 
-- **[HTTPX](https://github.com/encode/httpx)**  
+7. **[Ky](https://github.com/sindresorhus/ky)** [![GitHub stars](https://img.shields.io/github/stars/sindresorhus/ky?style=social&color=white)](https://github.com/sindresorhus/ky/stargazers)  
+   **Tiny and elegant HTTP client based on the browser Fetch API** (MIT). Features automatic retry with backoff, JSON convenience methods, timeout support, URL prefixing, and hooks. Designed for modern browsers, Service Workers, and Node.js.
 
-  **The next-generation HTTP client for Python** (BSD-3-Clause) . **14,000+ GitHub stars** . **Supports both sync and async APIs** with a familiar `requests`-like interface . **HTTP/2 support**, **connection pooling**, **timeouts**, and **streaming** . **The modern replacement for Requests** in async codebases.
+8. **[SuperAgent](https://github.com/ladjs/superagent)** [![GitHub stars](https://img.shields.io/github/stars/ladjs/superagent?style=social&color=white)](https://github.com/ladjs/superagent/stargazers)  
+   **Small progressive client-side HTTP request library and Node.js module** (MIT). Featuring fluid method chaining, promise and async/await support, plugins, and streaming request handling.
 
+9. **[Aiohttp](https://github.com/aio-libs/aiohttp)** [![GitHub stars](https://img.shields.io/github/stars/aio-libs/aiohttp?style=social&color=white)](https://github.com/aio-libs/aiohttp/stargazers)  
+   **Asynchronous HTTP client/server framework for asyncio and Python** (Apache-2.0). The foundational async HTTP library for Python—provides client session connection pooling, streaming responses, WebSocket client/server support, and non-blocking I/O.
 
+10. **[HTTPX](https://github.com/encode/httpx)** [![GitHub stars](https://img.shields.io/github/stars/encode/httpx?style=social&color=white)](https://github.com/encode/httpx/stargazers)  
+    **Next-generation HTTP client for Python with standard sync and async APIs** (BSD-3-Clause). Features HTTP/2 support, strict timeouts, connection pooling, direct ASGI/WSGI app calling, and full type annotations. The modern choice for Python asyncio workflows.
 
-- **[Requests](https://github.com/psf/requests)**  
+11. **[Got](https://github.com/sindresorhus/got)** [![GitHub stars](https://img.shields.io/github/stars/sindresorhus/got?style=social&color=white)](https://github.com/sindresorhus/got/stargazers)  
+    **Human-friendly and powerful HTTP request library for Node.js** (MIT). Offers native HTTP/2 support, RFC-compliant caching, progressive retry logic, streams, and pagination helpers.
 
-  **The most widely used HTTP library for Python** (Apache-2.0) . **52,000+ GitHub stars** . **The de facto standard**—"HTTP for Humans" with a simple, intuitive API . **Synchronous only**—use HTTPX or Aiohttp for async code. **The reference implementation for Python HTTP clients.**
+12. **[reqwest](https://github.com/seanmonstar/reqwest)** [![GitHub stars](https://img.shields.io/github/stars/seanmonstar/reqwest?style=social&color=white)](https://github.com/seanmonstar/reqwest/stargazers)  
+    **Ergonomic, batteries-included async HTTP client for Rust** (Apache-2.0/MIT). Built on Tokio and Hyper with connection pooling, TLS (native or rustls), streaming request/response bodies, JSON serialization, and WASM compilation support.
 
+13. **[Resty](https://github.com/go-resty/resty)** [![GitHub stars](https://img.shields.io/github/stars/go-resty/resty?style=social&color=white)](https://github.com/go-resty/resty/stargazers)  
+    **Simple and ergonomic HTTP and REST client library for Go** (MIT). Provides request and response interceptors, automatic retries with backoff, circuit breaking support, request tracing, and seamless JSON/XML payload unmarshaling.
 
+14. **[Undici](https://github.com/nodejs/undici)** [![GitHub stars](https://img.shields.io/github/stars/nodejs/undici?style=social&color=white)](https://github.com/nodejs/undici/stargazers)  
+    **High-performance HTTP/1.1 and HTTP/2 client written from scratch for Node.js** (MIT). Powers the global `fetch()` implementation in modern Node.js, delivering significantly higher throughput and lower overhead than legacy `http.Agent`.
 
-- **[urllib3](https://github.com/urllib3/urllib3)**  
+15. **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** [![GitHub stars](https://img.shields.io/github/stars/lwthiker/curl-impersonate?style=social&color=white)](https://github.com/lwthiker/curl-impersonate/stargazers)  
+    **Special build of curl that impersonates major browser TLS fingerprints** (MIT). Mimics Chrome, Edge, Safari, and Firefox TLS Client Hello fingerprints (JA3/JA4) and HTTP/2 settings to prevent automated bot blocks during high-concurrency data scraping.
 
-  **The HTTP library with thread-safe connection pooling** (MIT) . **3,900+ GitHub stars** . **The low-level foundation beneath Requests**—provides connection pooling, retries, redirects, and TLS verification . **The most widely deployed HTTP library in Python** (via Requests dependency).
+16. **[Nodriver](https://github.com/ultrafunkamsterdam/nodriver)** [![GitHub stars](https://img.shields.io/github/stars/ultrafunkamsterdam/nodriver?style=social&color=white)](https://github.com/ultrafunkamsterdam/nodriver/stargazers)  
+    **Successor to undetected-chromedriver** (MIT). Asynchronous browser orchestration with direct Chrome DevTools Protocol (CDP) communication, avoiding WebDriver detection signatures while allowing concurrent web fetching.
 
+17. **[urllib3](https://github.com/urllib3/urllib3)** [![GitHub stars](https://img.shields.io/github/stars/urllib3/urllib3?style=social&color=white)](https://github.com/urllib3/urllib3/stargazers)  
+    **The battle-tested HTTP library with thread-safe connection pooling for Python** (MIT). Features client-side TLS verification, retry mechanisms, and streaming decode. Deployed in millions of production environments as the core transport for Requests.
 
+18. **[Niquests](https://github.com/jawah/niquests)** [![GitHub stars](https://img.shields.io/github/stars/jawah/niquests?style=social&color=white)](https://github.com/jawah/niquests/stargazers)  
+    **Drop-in replacement for Requests with native async, HTTP/2, and HTTP/3 multiplexing** (Apache-2.0). Provides seamless async migration for legacy Requests codebases without altering fundamental method signatures.
 
-- **[Axios](https://github.com/axios/axios)**  
+19. **[ureq](https://github.com/algesten/ureq)** [![GitHub stars](https://img.shields.io/github/stars/algesten/ureq?style=social&color=white)](https://github.com/algesten/ureq/stargazers)  
+    **Minimalist, safe HTTP request library for Rust without heavy async runtimes** (Apache-2.0/MIT). Focused on small binary footprints, clean blocking APIs, and fast build times when an async event loop is unnecessary.
 
-  **Promise-based HTTP client for the browser and Node.js** (MIT) . **107,000+ GitHub stars** . **The most widely used JavaScript HTTP library**—features **interceptors**, **automatic JSON transformation**, **timeouts**, and **request/response cancellation** . **The standard for JavaScript HTTP requests.**
+20. **[PyCurl](https://github.com/pycurl/pycurl)** [![GitHub stars](https://img.shields.io/github/stars/pycurl/pycurl?style=social&color=white)](https://github.com/pycurl/pycurl/stargazers)  
+    **Python interface to libcurl** (LGPL/MIT). Extremely fast C-extension bindings supporting multi-interface concurrent transfers, connection reuse, and fine-grained socket controls.
 
+21. **[HTTPcore](https://github.com/encode/httpcore)** [![GitHub stars](https://img.shields.io/github/stars/encode/httpcore?style=social&color=white)](https://github.com/encode/httpcore/stargazers)  
+    **Low-level HTTP transport engine underlying HTTPX** (BSD-3-Clause). Provides connection pooling, HTTP/1.1 and HTTP/2 wire-level protocols, sync and async concurrency backends (asyncio and trio).
 
+22. **[Unirest Python](https://github.com/Kong/unirest-python)** [![GitHub stars](https://img.shields.io/github/stars/Kong/unirest-python?style=social&color=white)](https://github.com/Kong/unirest-python/stargazers)  
+    **Simplified, lightweight HTTP client library** (MIT). Part of the Unirest suite offering uniform, declarative request syntax across multiple programming languages.
 
-- **[Got](https://github.com/sindresorhus/got)**  
+23. **[httpx-sse](https://github.com/florimondmanca/httpx-sse)** [![GitHub stars](https://img.shields.io/github/stars/florimondmanca/httpx-sse?style=social&color=white)](https://github.com/florimondmanca/httpx-sse/stargazers)  
+    **Server-Sent Events (SSE) streaming consumer for HTTPX** (MIT). Provides non-blocking parsing of event-stream responses, perfect for AI chat completions and real-time LLM token streaming.
 
-  **Human-friendly and powerful HTTP request library for Node.js** (MIT) . **14,000+ GitHub stars** . **Features**: **HTTP/2 support**, **retries**, **timeouts**, **hooks**, **streams**, and **pagination** . **The modern alternative to Axios** for Node.js.
-
-
-
-- **[cURL](https://github.com/curl/curl)**  
-
-  **The universal command-line tool for transferring data with URLs** (curl License) . **37,000+ GitHub stars** . **Supports HTTP, HTTPS, FTP, FTPS, SCP, SFTP, TFTP, DICT, TELNET, LDAP, FILE, and more** . **The foundation of API testing**—every HTTP client ultimately shells out to something curl-like .
-
-
-
-- **[HTTPie CLI](https://github.com/httpie/cli)**  
-
-  **User-friendly command-line HTTP client** (BSD-3-Clause) . **35,000+ GitHub stars** . **JSON support, syntax highlighting, and intuitive syntax** . **The most popular CLI alternative to curl**—designed for humans, not machines .
-
-
-
-- **[Unirest](https://github.com/Kong/unirest-python)**  
-
-  **Simplified, lightweight HTTP client libraries** (MIT) . **Available in Python, Java, PHP, Node.js, Ruby, and more** . **The simplest cross-language HTTP client API** .
-
-
-
-- **[Niquests](https://github.com/jawah/niquests)**  
-
-  **A drop-in replacement for Requests with async support** (Apache-2.0) . **The spiritual successor to Requests**—same API, async capabilities. **The migration path for existing Requests codebases.**
-
-
-
-- **[HTTPcore](https://github.com/encode/httpcore)**  
-
-  **The low-level HTTP transport library** (BSD-3-Clause) underlying HTTPX . **Provides connection pooling, HTTP/1.1 and HTTP/2 support** . **The foundation for building custom HTTP clients.**
-
-
-
-- **[AIOHTTP Client](https://github.com/aio-libs/aiohttp)**  
-
-  See Aiohttp above.
-
-
-
-- **[Nodriver](https://github.com/ultrafunkamsterdam/nodriver)**  
-
-  **Successor to undetected-chromedriver** (MIT) . **Async browser automation with HTTP client capabilities** for scraping JavaScript-heavy sites .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[curl-impersonate](https://github.com/lwthiker/curl-impersonate)** — A special build of curl that can impersonate Chrome, Edge, Safari, and Firefox (MIT) . **Bypasses TLS fingerprinting** for scraping.
-
-- **[rnet](https://github.com/levyvix/rnet)** — Rust HTTP client for Python (MIT) . **The performance-focused alternative** to Requests with Rust speed.
-
-- **[httpx-sse](https://github.com/florimondmanca/httpx-sse)** — Server-Sent Events support for HTTPX (MIT) .
-
-- **[PyCurl](https://github.com/pycurl/pycurl)** — Python interface to libcurl (LGPL) . **The most complete curl binding for Python** .
-
-- **[reqwest](https://github.com/seanmonstar/reqwest)** — Rust HTTP client (Apache-2.0/MIT) . **The most ergonomic Rust HTTP client** .
-
-- **[ureq](https://github.com/algesten/ureq)** — Rust HTTP client with no async runtime (Apache-2.0/MIT) . **The simplest Rust HTTP client** .
-
-- **[SuperAgent](https://github.com/ladjs/superagent)** — JavaScript HTTP client (MIT) . **The original promise-based HTTP client** for Node.js and browsers.
-
-- **[Ky](https://github.com/sindresorhus/ky)** — Tiny and elegant HTTP client for browser (MIT) . **The fetch API wrapper** by the Got author.
-
-- **[Undici](https://github.com/nodejs/undici)** — Official Node.js HTTP/1.1 client (MIT) . **The built-in Node.js HTTP client** .
-
-- Community **n8n** workflows for HTTP request automation and API testing orchestration.
-
-
-
-**Frameworks for building custom systems**: Combine **HTTPX** for modern sync/async HTTP with **Aiohttp** for asyncio-native concurrency, **Axios** for JavaScript applications, **urllib3** for low-level connection pooling, and **curl-impersonate** for fingerprint-resistant scraping—creating a comprehensive cross-language HTTP client stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Asynchronous HTTP clients handling production traffic must follow security best practices and respect target service terms of service.
-
-- **Async HTTP is not automatically faster.** What async enables is efficient concurrent handling of I/O-bound workloads—slow downstream calls, WebSockets, SSE, long-lived requests. **For CPU-bound or sync-blocking code, async buys you nothing and can cost throughput** .
-
-- **The async illusion is real.** Writing `async def` does not make a function non-blocking—it marks it as a coroutine. **If the body calls a sync database driver or CPU-bound computation without thread offload, the event loop blocks for every concurrent request** .
-
-- **HTTPX is the modern replacement for Requests.** It supports **both sync and async APIs** with a familiar interface . **Niquests provides a drop-in migration path** for existing Requests codebases that need async .
-
-- **Axios remains the JavaScript standard.** 107,000+ GitHub stars and **the most widely used JS HTTP library** . **Got and Ky offer modern alternatives** with HTTP/2 and smaller bundle sizes .
-
-- **curl-impersonate bypasses TLS fingerprinting.** Standard HTTP clients fail against sites using JA3/JA4 fingerprint detection. **curl-impersonate mimics Chrome, Edge, Safari, and Firefox TLS signatures** —essential for scraping modern anti-bot protected sites .
-
-- Self-hosted open-source solutions require proper security hardening, TLS configuration, and ongoing maintenance. **HTTP clients are the most common attack surface in applications** —validate SSL certificates, enforce timeouts, and never disable verification in production.
-
-
+24. **[rnet](https://github.com/levyvix/rnet)** [![GitHub stars](https://img.shields.io/github/stars/levyvix/rnet?style=social&color=white)](https://github.com/levyvix/rnet/stargazers)  
+    **High-performance Rust-powered HTTP client for Python** (MIT). Binds Rust’s native concurrency directly to Python for maximum throughput and minimal overhead during bulk network requests.
 
 ---
 
+## 🌟 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Asynchronous-HTTP-Frameworks&type=date&legend=top-left)
 
-**Made for developers, platform teams, and organizations building transparent HTTP client solutions.**  
+---
 
-Let's make Asynchronous HTTP Frameworks more open, data-driven, and concurrency-safe.
+## 🤝 Support
+
+Thank you for exploring this curated repository! If you find this guide helpful for building fast, resilient, and non-blocking network applications:
+
+- ⭐ **Star this repository** to help other developers discover it!
+- 🍴 **Fork it** and contribute your favorite async HTTP libraries and tools.
+- 📣 **Share it** on social platforms, developer forums, and Discord communities.
+- ☕ **Buy me a coffee / Sponsor**: If you'd like to support ongoing maintenance and new developer guides, visit my [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📝 How to Contribute
+
+1. Fork this repository.
+2. Add or update entries in `README.md` following the established format and star-ranking order.
+3. Include: Name, official GitHub link, star badge, 1–2 sentence description highlighting concurrency/async features, and license.
+4. Submit a Pull Request with a clear, descriptive explanation.
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** list — not exhaustive and not an endorsement.
+- Asynchronous HTTP clients handling production traffic must follow security best practices and respect target service terms of service.
+- **Async HTTP is not automatically faster.** What async enables is efficient concurrent handling of I/O-bound workloads—slow downstream calls, WebSockets, SSE, and long-lived requests. For CPU-bound or sync-blocking code, async does not add speed and can cost throughput.
+- **The async illusion is real.** Writing `async def` does not make a function non-blocking—it marks it as a coroutine. If the function body calls a synchronous blocking database driver or CPU-bound computation without thread pool offloading, the event loop blocks for every concurrent request.
+- **HTTPX is the modern replacement for Requests.** It supports both sync and async APIs with a familiar interface. Niquests provides a drop-in migration path for existing Requests codebases that need async and HTTP/2/3 support.
+- **Axios remains the JavaScript standard.** Got, Ky, and Undici offer modern alternatives with native HTTP/2, smaller bundle sizes, and native `fetch` performance.
+- **curl-impersonate bypasses TLS fingerprinting.** Standard HTTP clients fail against sites using JA3/JA4 fingerprint detection. curl-impersonate mimics Chrome, Edge, Safari, and Firefox TLS signatures—essential for scraping modern protected sites.
+- Self-hosted open-source solutions require proper security hardening, TLS configuration, and ongoing maintenance. Always validate SSL certificates, enforce timeouts, and never disable verification in production.
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for developers, platform teams, and organizations creating high-concurrency HTTP architectures.</b><br/>
+  <sub>Let's make Asynchronous HTTP Frameworks more open, data-driven, and concurrency-safe.</sub>
+</p>
